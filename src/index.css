@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.home-page,
+.link-page,
+.receiver-page,
+.main-page {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.home-page {
+  background-image: linear-gradient(
+    -31deg,
+    rgba(246, 138, 216, 0.7) 0%,
+    rgba(96, 245, 245, 0.7) 100%
+  );
+}
+
+.link-page {
+  background-image: linear-gradient(
+      -31deg,
+      rgba(246, 138, 216, 0.7) 0%,
+      rgba(96, 245, 245, 0.7) 100%
+    ),
+    url("./assets/person-image.png");
+}
+
+.receiver-page {
+  background-image: linear-gradient(
+      -31deg,
+      rgba(246, 164, 138, 0.7) 0%,
+      rgba(96, 245, 245, 0.7) 100%
+    ),
+    url("./assets/person-image.png");
+}
+
+.main-page {
+  background-image: linear-gradient(
+    -31deg,
+    rgba(138, 237, 246, 0.7) 10%,
+    rgba(96, 162, 245, 0.7) 100%
+  );
+}
