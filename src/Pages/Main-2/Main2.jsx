@@ -14,7 +14,12 @@ const Main2 = () => {
           className={`${styles.logo} h-4 md:h-6 mt-2`}
         />
         <div className={`self-center m-auto ${styles.main2Text}`}>
-          <h2>File Sharing Made EASY</h2>
+          <h2 className="text-2xl md:text-3xl font-bold my-3">
+            File Sharing Made{" "}
+            <span className="text-blue-300">
+              EASY <img src={star} alt="" className="h-5 inline-block" />
+            </span>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu
             nisi quis libero ultricies bibendum. Morbi in orci nec urna porta
