@@ -1,0 +1,26 @@
+.main2 {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+}
+
+
+@media (min-width: 768px) {
+    .main2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.blue {
+    background-color:#32B3FF2B;
+}
+
+.form {
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 86px 0px #32B3FF40;
+    width: 80%;
+    max-width: 400px;
+}
