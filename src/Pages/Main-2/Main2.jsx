@@ -72,21 +72,22 @@ const Main2 = () => {
       <h4 className="text-2xl text-center md:text-3xl font-bold">
         Welcome Back
       </h4>
-      <p className="text-center">
+      <p className="text-center mt-2 mb-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam maecenas
-        mi non sed ut odio. Non, justo, sed facilisi et.{" "}
+        mi non sed ut odio. Non, justo, sed facilisi et.
       </p>
       <Input type={"text"} placeholder="Username , Email & Phone Number" />
       <Input type={"password"} placeholder="Password" />
       <p className="text-right my-2 w-full">
-        <a href="#" className="underline font-medium">
+        <a href="#" className="underline font-medium text-xs">
           Forgot Password ?
         </a>
       </p>
       <button
-        className="bg-blue-400 hover:opacity-50 text-white w-full p-2 
+        className={`bg-blue-400 hover:opacity-50 text-white w-full p-2 
               my-3 rounded-md 
-              "
+              ${styles.btnShadow}
+              `}
       >
         Sign in
       </button>
@@ -116,9 +117,9 @@ const Main2 = () => {
           className={`${styles.logo} h-4 md:h-6 mt-2`}
         />
         <div className={`self-center m-auto ${styles.main2Text}`}>
-          <h2 className="text-2xl md:text-5xl font-bold my-3">
+          <h2 className="text-2xl md:text-5xl font-bold my-3 leading-4">
             File Sharing Made{" "}
-            <span className="text-blue-300 flex items-center">
+            <span className="text-blue-400 flex items-center">
               EASY <img src={star} alt="" className="ml-2 h-5 inline-block" />
             </span>
           </h2>
